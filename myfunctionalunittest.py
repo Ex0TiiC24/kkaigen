@@ -1,5 +1,5 @@
 import unittest
-from myfunctional import *
+from func import *
 class TestFunctions(unittest.TestCase):
 
     # Test case for Problem 1
@@ -63,9 +63,9 @@ class TestFunctions(unittest.TestCase):
         self.assertEqual(func07(['cat', 'dog', 'elephant'], lambda s: s.startswith('e')), 1)  # Starts with 'e'
         self.assertEqual(func07(['a', 'b', 'c'], lambda s: s == 'a'), 1)  # Only 'a' matches
         self.assertEqual(func07(['cat', 'dog', 'elephant'], lambda s: 'a' in s), 2)  # 'cat' and 'elephant' contain 'a'
-        self.assertEqual(func07(['one', 'two', 'three', 'four'], lambda s: 'o' in s), 2)  # 'one' and 'two' contain 'o'
+        self.assertEqual(func07(['one', 'two', 'three', 'four'], lambda s: 'o' in s), 3)  # 'one' and 'two' contain 'o'
         self.assertEqual(func07([], lambda s: len(s) > 3), 0)  # Empty list, no matches
-        self.assertEqual(func07(['apple', 'pie', 'orange', 'banana'], lambda s: s.startswith('b')), 2)  # 'banana' and 'pie' start with 'b'
+        self.assertEqual(func07(['apple', 'pie', 'orange', 'banana'], lambda s: s.startswith('b')), 1)  # 'banana' and 'pie' start with 'b'
 
 
 if __name__ == '__main__':
