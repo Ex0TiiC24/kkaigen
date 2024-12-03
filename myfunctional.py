@@ -9,8 +9,8 @@ from functools import reduce
 # func01([1, 3, 5, 7])     # Output: 0
 # func01([2, 4, 6, 8])     # Output: 20
 def func01(ls: list[int]) -> int:
-    return reduce(lambda x,y: x+y,filter(lambda x:x%2==0,ls),0)
-
+    #return reduce(lambda x,y: x+y,filter(lambda x:x%2==0,ls),0)
+    pass
 
 # Problem 2:
 # Write a function 'func02' that receives a list of strings and returns a new list containing only the strings that have more than 3 characters. 
@@ -31,8 +31,8 @@ print(func02(['cat', 'dog', 'elephant', 'bat']))
 # func03([0, -1, -2])        # Output: [0]
 # func03([-5, -6, -7])       # Output: []
 def func03(ls: list[int]) -> list[int]:
-    return list(filter(lambda x : x>=0,ls))
-
+    #return list(filter(lambda x : x>=0,ls))
+    pass
 
 # Problem 4:
 # Write a function 'func04' that receives a list of integers and returns a new list containing the squares of all the integers in the list. 
@@ -42,9 +42,9 @@ def func03(ls: list[int]) -> list[int]:
 # func04([0, -1, -2])   # Output: [0, 1, 4]
 # func04([5])           # Output: [25]
 def func04(ls: list[int]) -> list[int]:
-    return list(map(lambda x : x**2,ls))
+    #return list(map(lambda x : x**2,ls))
+    pass
 
-print(func04([1, 2, 3, 4]))
 
 # Problem 5:
 # Write a function 'func05' that receives a list of integers and returns the product of all the integers in the list. 
