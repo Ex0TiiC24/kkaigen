@@ -1,2 +1,5 @@
 # kkaigen
-KK practice
+## KK practice
+- myfunctional - basic functional
+- mymerge - basic functional + recursive
+  
