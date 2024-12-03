@@ -9,7 +9,7 @@ from functools import reduce
 # func01([1, 3, 5, 7])     # Output: 0
 # func01([2, 4, 6, 8])     # Output: 20
 def func01(ls: list[int]) -> int:
-    #return reduce(lambda x,y: x+y,filter(lambda x:x%2==0,ls),0)
+    
     pass
 
 # Problem 2:
@@ -20,8 +20,8 @@ def func01(ls: list[int]) -> int:
 # func02(['one', 'two', 'three', 'four'])    # Output: ['three', 'four']
 # func02(['a', 'bc', 'def'])                 # Output: ['def']
 def func02(ls: list[str]) -> list[str]:
-    return list(filter(lambda x : len(x)>3,ls))
-print(func02(['cat', 'dog', 'elephant', 'bat']))
+    pass
+
 
 # Problem 3:
 # Write a function 'func03' that receives a list of integers and returns a new list containing only the positive integers. 
@@ -31,7 +31,7 @@ print(func02(['cat', 'dog', 'elephant', 'bat']))
 # func03([0, -1, -2])        # Output: [0]
 # func03([-5, -6, -7])       # Output: []
 def func03(ls: list[int]) -> list[int]:
-    #return list(filter(lambda x : x>=0,ls))
+    
     pass
 
 # Problem 4:
@@ -42,7 +42,7 @@ def func03(ls: list[int]) -> list[int]:
 # func04([0, -1, -2])   # Output: [0, 1, 4]
 # func04([5])           # Output: [25]
 def func04(ls: list[int]) -> list[int]:
-    #return list(map(lambda x : x**2,ls))
+    
     pass
 
 
